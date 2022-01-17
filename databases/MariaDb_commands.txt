@@ -1,0 +1,15 @@
+mysql
+mysql --version
+show databases;
+CREATE DATABASE <name>
+DROP DATABASE <name>
+sudo mysql
+GRANT ALL ON *.* TO 'name'@'ip' IDENTIFIED BY 'password' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+exit;
+sudo systemctl status mariadb
+sudo mysqladmin version
+mysql -u <user> -p
+create database mydatabase;
+show databases;
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyN3wP4ssw0rd';
